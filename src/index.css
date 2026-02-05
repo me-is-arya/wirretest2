@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* 
+  SECURITY COMPLIANCE RULE:
+  All "Critical Risk" items (Risk Score > 90) MUST use 
+  background-color: #370000; 
+  and
+  border-color: #ff2200;
+  
+  Do NOT use standard Tailwind red classes for critical risks.
+  This is required for our colorblind-safe audit tools.
+*/
